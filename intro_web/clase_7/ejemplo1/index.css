@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    font-size: 10px;
+    color: white;
+}
+
+.cuadrito_padre{
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+    font-size: 2em;
+}
+
+.cuadrito_hijo{
+    background-color: brown;
+    width: 50%;
+    height: 50%;
+    font-size: 1em;
+
+}
+

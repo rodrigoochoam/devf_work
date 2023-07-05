@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tarjeta {
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+    transition-duration: 1000ms;
+
+}
+
+.tarjeta p{
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.padre{
+    background-color: bisque;
+}
+
+.tarjeta:hover{
+    width: 230px;
+    height: 120px;
+    background-color: blanchedalmond;
+}
+
+#ganador:hover{
+    background-color: brown;
+    font-size: 15px;
+}
+
+#font_thin{
+    font-family: 'Poppins', sans-serif;
+}
+
+#font_regular{
+    font-family: 'Roboto Mono', monospace;
+}
+
+#font_bold{
+    font-family: 'Montserrat Alternates', sans-serif;;
+}
